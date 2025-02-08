@@ -43,7 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             <main className="">
               <SignedOut>
-                {/* Show unauthenticated content */}
+                {/* Show unauthenticated content here*/}
                 <LandingPage />
               </SignedOut>
 
